@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Compiling..."
+javac -cp "lib/json-20210307.jar" src/WeatherClient.java
+echo "Running..."
+java -cp "lib/json-20210307.jar:src" WeatherClient
